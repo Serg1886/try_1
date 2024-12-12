@@ -5,10 +5,7 @@ body {
     background-color: #DCE9F5;
     color: #333;
     text-align: center;
-    display: flex; /* Activamos flexbox */
     justify-content: center; /* Centrado horizontal */
-    align-items: center; /* Centrado vertical */
-    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
 }
 
 header {
