@@ -26,7 +26,20 @@ p {
     font-size: 1em;
     line-height: 1.6;
 }
+button {
+    font-size: 24px; /* Tamaño de fuente grande */
+    padding: 20px 40px; /* Aumento del tamaño del botón */
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s ease; /* Efecto suave al pasar el mouse */
+}
 
+button:hover {
+    background-color: #45a049; /* Cambia el color de fondo cuando el mouse pasa sobre el botón */
+}
 footer {
     background-color: #47405f;
     color: white;
