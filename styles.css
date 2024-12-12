@@ -5,6 +5,10 @@ body {
     background-color: #DCE9F5;
     color: #333;
     text-align: center;
+    display: flex; /* Activamos flexbox */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
 }
 
 header {
@@ -42,9 +46,10 @@ button:hover {
 }
 
 img {
-  display: none; /* La imagen inicialmente está oculta */
-  margin-top: 20px; /* Espacio entre la imagen y el texto */
-    justify-content: center;
+    display: none; /* La imagen inicialmente está oculta */
+    margin-top: 20px; /* Espacio entre la imagen y el texto */
+    max-width: 100%; /* Asegura que la imagen no se desborde horizontalmente */
+    max-height: 80vh; /* Limita la altura máxima de la imagen */
 }
 footer {
     background-color: #47405f;
