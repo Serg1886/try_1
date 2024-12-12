@@ -18,7 +18,8 @@
             <source src="./Grand_prix.mp3" type="audio/odd">
             Tu navegador no soporta la reproducción de audio.
         </audio>
-        <button onclick="playAudio()">Play</button>
+        <button id="playButton" onclick="playAudio()">Play</button>
+        <img id="image" src="GrandPrix.webp alt="Imageaftermusic" style="display: none; width: 300px; height: auto;">
         </main>
     <footer>
         <p>© 2024 By Sergi Solís</p>
@@ -27,7 +28,11 @@
         // Función para reproducir el audio
         function playAudio() {
             var audio = document.getElementById("myAudio");
+            var button = document.getElementById("playButton");
+            var image = document.getElementById("image");
             audio.play();  // Inicia la reproducción del audio
+            button.style.display = "none";  // Oculta el botón
+            image.style.display = "block";  // Muestra la imagen
         }
     </script>
 </body>
