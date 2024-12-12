@@ -6,40 +6,29 @@
     <title>Note_1_TESTING</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<audio id="musica">
-    <source src="Grand_prix.mp3" type="audio/mpeg">
-    <source src="Grand_prix.mp3" type="audio/ogg">
-    Tu navegador no soporta la reproducción de audio.
-</audio>
-<p>
-  <!-- Botón para reproducir música -->
-  <button onclick="playAudio()">Reproducir Música</button>
-  <!-- Botón para pausar música -->
-  <button onclick="pauseAudio()">Pausar Música</button>
-</p>
-
-<script>
-  // Función para reproducir el audio
-  function playAudio() {
-    var audio = document.getElementById("musica");
-    audio.play();  // Inicia la reproducción
-  }
-
-  // Función para pausar el audio
-  function pauseAudio() {
-    var audio = document.getElementById("musica");
-    audio.pause();  // Detiene la reproducción
-  }
-</script>
 <body>
     <header>
         <h1 id="titulo">Title test for an obstacle course</h1>
     </header>
     <main>
         <p id="texto">Hello. This page tries to show an a basical demonstration that a obstacle course could be done with QR code and web in internet</p>
-    </main>
+    <!-- Agregar botón para reproducir música -->
+        <audio id="myAudio">
+            <source src="./Grand_prix.mp3" type="audio/mpeg">
+            <source src="./Grand_prix.mp3" type="audio/odd">
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
+        <button onclick="playAudio()">Play</button>
+        </main>
     <footer>
         <p>© 2024 By Sergi Solís</p>
     </footer>
+    <script>
+        // Función para reproducir el audio
+        function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.play();  // Inicia la reproducción del audio
+        }
+    </script>
 </body>
 </html>
