@@ -44,11 +44,6 @@ button {
 button:hover {
     background-color: #45a049; /* Cambia el color de fondo cuando el mouse pasa sobre el botón */
 }
-
-img {
-    display: none; /* La imagen inicialmente está oculta */
-    margin-top: 20px; /* Espacio entre la imagen y el texto */
-}
 footer {
     background-color: #47405f;
     color: white;
