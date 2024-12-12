@@ -6,11 +6,31 @@
     <title>Note_1_TESTING</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<audio id="musica" autoplay loop>
+<audio id="musica">
     <source src="Grand_prix.mp3" type="audio/mpeg">
     <source src="Grand_prix.mp3" type="audio/ogg">
     Tu navegador no soporta la reproducción de audio.
 </audio>
+<p>
+  <!-- Botón para reproducir música -->
+  <button onclick="playAudio()">Reproducir Música</button>
+  <!-- Botón para pausar música -->
+  <button onclick="pauseAudio()">Pausar Música</button>
+</p>
+
+<script>
+  // Función para reproducir el audio
+  function playAudio() {
+    var audio = document.getElementById("musica");
+    audio.play();  // Inicia la reproducción
+  }
+
+  // Función para pausar el audio
+  function pauseAudio() {
+    var audio = document.getElementById("musica");
+    audio.pause();  // Detiene la reproducción
+  }
+</script>
 <body>
     <header>
         <h1 id="titulo">Title test for an obstacle course</h1>
