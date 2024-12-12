@@ -1,11 +1,10 @@
 body {
-font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  height: 100vh; /* Altura completa de la ventana */
-  background-color: #f0f0f0; /* Color de fondo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DCE9F5;
+    color: #333;
+    text-align: center;
 }
 
 header {
@@ -20,7 +19,7 @@ h1 {
 }
 
 main {
-    text-align: center;
+    padding: 15px;
 }
 
 p {
@@ -36,12 +35,15 @@ button {
     border-radius: 15px; /* Bordes redondeados */
     cursor: pointer; /* Cambia el cursor al pasar el mouse */
     transition: background-color 0.3s ease; /* Efecto suave al pasar el mouse */
-    width: 300px; /* Ancho específico del botón */
-    height: 100px; /* Alto específico del botón */
 }
 
 button:hover {
     background-color: #45a049; /* Cambia el color de fondo cuando el mouse pasa sobre el botón */
+}
+
+img {
+  display: none; /* La imagen inicialmente está oculta */
+  margin-top: 20px; /* Espacio entre la imagen y el texto */
 }
 footer {
     background-color: #47405f;
