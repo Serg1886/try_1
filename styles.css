@@ -44,6 +44,7 @@ button:hover {
 img {
   display: none; /* La imagen inicialmente está oculta */
   margin-top: 20px; /* Espacio entre la imagen y el texto */
+    justify-content: center;
 }
 footer {
     background-color: #47405f;
