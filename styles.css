@@ -27,18 +27,23 @@ p {
     line-height: 1.6;
 }
 button {
-    font-size: 24px; /* Tamaño de fuente grande */
-    padding: 20px 40px; /* Aumento del tamaño del botón */
+    font-size: 36px; /* Tamaño de fuente grande */
+    padding: 40px 60px; /* Aumento del tamaño del botón */
     background-color: #4CAF50; /* Color de fondo verde */
     color: white; /* Color del texto */
     border: none; /* Sin bordes */
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 15px; /* Bordes redondeados */
     cursor: pointer; /* Cambia el cursor al pasar el mouse */
     transition: background-color 0.3s ease; /* Efecto suave al pasar el mouse */
 }
 
 button:hover {
     background-color: #45a049; /* Cambia el color de fondo cuando el mouse pasa sobre el botón */
+}
+
+img {
+  display: none; /* La imagen inicialmente está oculta */
+  margin-top: 20px; /* Espacio entre la imagen y el texto */
 }
 footer {
     background-color: #47405f;
