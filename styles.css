@@ -1,11 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #DCE9F5;
-    color: #333;
-    text-align: center;
-    justify-content: center; /* Centrado horizontal */
+font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura completa de la ventana */
+  background-color: #f0f0f0; /* Color de fondo */
 }
 
 header {
@@ -20,7 +21,7 @@ h1 {
 }
 
 main {
-    padding: 15px;
+    text-align: center;
 }
 
 p {
@@ -36,6 +37,8 @@ button {
     border-radius: 15px; /* Bordes redondeados */
     cursor: pointer; /* Cambia el cursor al pasar el mouse */
     transition: background-color 0.3s ease; /* Efecto suave al pasar el mouse */
+    width: 300px; /* Ancho específico del botón */
+    height: 100px; /* Alto específico del botón */
 }
 
 button:hover {
@@ -45,8 +48,6 @@ button:hover {
 img {
     display: none; /* La imagen inicialmente está oculta */
     margin-top: 20px; /* Espacio entre la imagen y el texto */
-    max-width: 100%; /* Asegura que la imagen no se desborde horizontalmente */
-    max-height: 80vh; /* Limita la altura máxima de la imagen */
 }
 footer {
     background-color: #47405f;
