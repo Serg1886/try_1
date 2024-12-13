@@ -23,9 +23,9 @@ main {
 }
 
 p {
-    font-size: 1.3em; /* Incrementa el tamaño de la letra */
+    font-size: 1.2em; /* Incrementa el tamaño de la letra */
     font-weight: 100; /* Hace que el texto sea más grueso */
-    line-height: 1.8; /* Espaciado entre líneas más cómodo */
+    line-height: 1.4; /* Espaciado entre líneas más cómodo */
     color: #333; /* Color del texto (mantener o cambiar si es necesario) */
 }
 button {
