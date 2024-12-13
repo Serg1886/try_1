@@ -53,11 +53,11 @@ img {
     text-align: left; /* Alineación del texto (puedes cambiar a "center" si lo prefieres) */
     padding: 10px; /* Espaciado interno */
     font-size: 1.2em; /* Tamaño del texto */
-    line-height: 1.6; /* Espaciado entre líneas */
+    line-height: 1.3; /* Espaciado entre líneas */
 }
 
 #additionalText h2 {
-    font-size: 1.6em; /* Tamaño del título */
+    font-size: 1.5em; /* Tamaño del título */
     margin-bottom: 10px; /* Espaciado inferior del título */
     color: #333; /* Color del título */
 }
