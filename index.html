@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <h1 id="titulo">Title test for an obstacle course</h1>
+        <h1 id="titulo">Grand Prix de reis</h1>
     </header>
     <main>
-        <p id="texto">Hello. This page tries to show an a basical demonstration that a obstacle course could be done with QR code and web in internet</p>
-        <button id="actionButton" onclick="executeActions()">Jugar!</button>
+        <p id="texto">Està al menú d'inici de la gimcana de reis. Per començar premi el botó de jugar.</p>
+        <button id="Playbutton" onclick="executeActions()">Jugar!</button>
         <!-- Agregar botón para reproducir música -->
         <audio id="myAudio">
             <source src="./Grand_prix.mp3" type="audio/mpeg">
@@ -36,10 +36,10 @@
         //}
         function executeActions() {
             // Cambiar el contenido del header
-            document.getElementById("titulo").textContent = "New Header Title";
+            document.getElementById("titulo").textContent = "Instruccions";
 
             // Cambiar el texto en el main
-            document.getElementById("texto").textContent = "The content has been updated successfully!";
+            document.getElementById("texto").textContent = "Benvingut! Acabes de començar la gimcana de reis amb l'objectiu de aconseguir el teu regal de reis.";
 
             // Mostrar la imagen
             const imagen = document.getElementById("image");
@@ -50,7 +50,7 @@
             audio.play();
 
             // Ocultar el botón
-            document.getElementById("playButton").style.display = "none";
+            document.getElementById("Playbutton").style.display = "none";
         }
     </script>
 </body>
