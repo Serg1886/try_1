@@ -12,7 +12,8 @@
     </header>
     <main>
         <p id="texto">Hello. This page tries to show an a basical demonstration that a obstacle course could be done with QR code and web in internet</p>
-    <!-- Agregar botón para reproducir música -->
+        <button id="actionButton" onclick="executeActions()">Jugar!</button>
+        <!-- Agregar botón para reproducir música -->
         <audio id="myAudio">
             <source src="./Grand_prix.mp3" type="audio/mpeg">
             <source src="./Grand_prix.mp3" type="audio/odd">
@@ -26,13 +27,31 @@
     </footer>
     <script>
         // Función para reproducir el audio
-        function playAudio() {
-            var audio = document.getElementById("myAudio");
-            var button = document.getElementById("playButton");
-            var image = document.getElementById("image");
-            audio.play();  // Inicia la reproducción del audio
-            button.style.display = "none";  // Oculta el botón
-            image.style.display = "block";  // Muestra la imagen
+        //function playAudio() {
+            //var audio = document.getElementById("myAudio");
+            //var button = document.getElementById("playButton");
+            //var image = document.getElementById("image");
+            //audio.play();  // Inicia la reproducción del audio
+            //button.style.display = "none";  // Oculta el botón
+            //image.style.display = "block";  // Muestra la imagen
+        //}
+        function executeActions() {
+            // Cambiar el contenido del header
+            document.getElementById("titulo").textContent = "New Header Title";
+
+            // Cambiar el texto en el main
+            document.getElementById("texto").textContent = "The content has been updated successfully!";
+
+            // Mostrar la imagen
+            const imagen = document.getElementById("image");
+            imagen.style.display = "block";
+
+            // Reproducir la música
+            const audio = document.getElementById("myAudio");
+            audio.play();
+
+            // Ocultar el botón
+            document.getElementById("playButton").style.display = "none";
         }
     </script>
 </body>
