@@ -11,7 +11,7 @@
         <h1 id="titulo">GRAND PRIX DE REIS</h1>
     </header>
     <main>
-        <p id="texto">Està al menú d'inici de la gimcana de reis. Per començar premi el botó de jugar.</p>
+        <p id="texto">Es troba al menú d'inici de la gimcana de reis. Premi el botó de jugar per començar.</p>
         <button id="Playbutton" onclick="executeActions()">Jugar!</button>
         <!-- Agregar botón para reproducir música -->
         <audio id="myAudio">
@@ -50,7 +50,7 @@
             audio.play();
 
             // Cambiar el texto en el main
-           // document.getElementById("texto2").textContent = "NORMES I INSTRUCCIONS";
+            document.getElementById("texto2").textContent = "NORMES I INSTRUCCIONS";
 
             // Ocultar el botón
             document.getElementById("Playbutton").style.display = "none";
