@@ -52,8 +52,8 @@ img {
     margin-top: 15px; /* Espacio con respecto a la imagen */
     text-align: left; /* Alineación del texto (puedes cambiar a "center" si lo prefieres) */
     padding: 10px; /* Espaciado interno */
-    font-size: 1.3em; /* Tamaño del texto */
-    line-height: 1.8; /* Espaciado entre líneas */
+    font-size: 1.2em; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
 }
 
 #additionalText h2 {
