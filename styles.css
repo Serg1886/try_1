@@ -49,15 +49,15 @@ img {
     height: auto; /* Mantiene la proporción de la imagen */
 }
 #additionalText {
-    margin-top: 20px; /* Espacio con respecto a la imagen */
+    margin-top: 15px; /* Espacio con respecto a la imagen */
     text-align: left; /* Alineación del texto (puedes cambiar a "center" si lo prefieres) */
     padding: 10px; /* Espaciado interno */
-    font-size: 1.2em; /* Tamaño del texto */
+    font-size: 1.6em; /* Tamaño del texto */
     line-height: 1.6; /* Espaciado entre líneas */
 }
 
 #additionalText h2 {
-    font-size: 1.8em; /* Tamaño del título */
+    font-size: 1.3em; /* Tamaño del título */
     margin-bottom: 10px; /* Espaciado inferior del título */
     color: #333; /* Color del título */
 }
