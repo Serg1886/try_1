@@ -40,7 +40,12 @@ button {
 button:hover {
     background-color: #45a049; /* Cambia el color de fondo cuando el mouse pasa sobre el botón */
 }
-
+img {
+    display: block; /* La imagen se trata como un bloque */
+    margin: 50px auto; /* Margen automático para centrarla horizontalmente */
+    max-width: 60%; /* Asegura que no ocupe más del 60% del ancho de la pantalla */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
 footer {
     background-color: #47405f;
     color: white;
