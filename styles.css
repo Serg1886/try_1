@@ -23,8 +23,10 @@ main {
 }
 
 p {
-    font-size: 2em;
-    line-height: 1.6;
+    font-size: 1.5em; /* Incrementa el tamaño de la letra */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    line-height: 1.8; /* Espaciado entre líneas más cómodo */
+    color: #333; /* Color del texto (mantener o cambiar si es necesario) */
 }
 button {
     font-size: 36px; /* Tamaño de fuente grande */
