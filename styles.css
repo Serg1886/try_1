@@ -48,6 +48,20 @@ img {
     max-width: 60%; /* Asegura que no ocupe más del 60% del ancho de la pantalla */
     height: auto; /* Mantiene la proporción de la imagen */
 }
+#additionalText {
+    margin-top: 20px; /* Espacio con respecto a la imagen */
+    text-align: left; /* Alineación del texto (puedes cambiar a "center" si lo prefieres) */
+    padding: 10px; /* Espaciado interno */
+    font-size: 1.2em; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+#additionalText h2 {
+    font-size: 1.8em; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior del título */
+    color: #333; /* Color del título */
+}
+
 footer {
     background-color: #47405f;
     color: white;
