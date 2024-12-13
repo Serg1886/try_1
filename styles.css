@@ -5,19 +5,12 @@ body {
     background-color: #DCE9F5;
     color: #333;
     text-align: center;
-    display: flex; /* Activamos flexbox para distribuir los elementos */
-    flex-direction: column; /* Apilamos los elementos de arriba hacia abajo */
-    justify-content: center; /* Centra el contenido verticalmente */
-    align-items: center; /* Centra el contenido horizontalmente */
-    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
 }
 
 header {
     background-color: #6050CE;
     color: white;
     padding: 15px;
-    width: 100%;
-    text-align: center;
 }
 
 h1 {
@@ -46,13 +39,6 @@ button {
 
 button:hover {
     background-color: #45a049; /* Cambia el color de fondo cuando el mouse pasa sobre el botón */
-}
-
-img {
-    display: block; /* La imagen se convierte en un bloque para centrarla */
-    margin-top: 20px; /* Margen superior para separar la imagen del contenido */
-    max-width: 90%; /* Limita el tamaño máximo de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 footer {
