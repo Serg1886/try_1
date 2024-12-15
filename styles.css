@@ -28,7 +28,7 @@ p {
     line-height: 1.4; /* Espaciado entre líneas más cómodo */
     color: #333; /* Color del texto (mantener o cambiar si es necesario) */
 }
-li {
+ul {
     font-size: 1.2em; /* Incrementa el tamaño de la letra */
     font-weight: 100; /* Hace que el texto sea más grueso */
     line-height: 1.4; /* Espaciado entre líneas más cómodo */
