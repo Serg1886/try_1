@@ -52,12 +52,14 @@
         //}
         function executeActions() {
             // Cambiar el contenido del header
-            document.getElementById("titulo_0").textContent = "Instruccions";
-            // Cambiar el contenido del header
-            document.getElementById("titulo_1").textContent = "none";
+            document.getElementById("titulo").textContent = "Instruccions";
+           
             // Cambiar el texto en el main
-            document.getElementById("texto").textContent = "Benvingut! Acabes de començar la gimcana de reis amb l'objectiu de aconseguir el teu regal. Si us plau, llegeix atentament les següents normes i instruccions.";
-
+            document.getElementById("texto_0").textContent = "Benvingut! Acabes de començar la gimcana de reis amb l'objectiu de aconseguir el teu regal. Si us plau, llegeix atentament les següents normes i instruccions.";
+            
+            // Cambiar el texto en el main
+            document.getElementById("texto_1").textContent = "none";
+    
             // Mostrar la imagen
             const imagen = document.getElementById("image");
             imagen.style.display = "block";
