@@ -11,7 +11,8 @@
         <h1 id="titulo">GRAND PRIX DE REIS</h1>
     </header>
     <main>
-        <p id="texto">Es troba al menú d'inici de la gimcana de reis. <p> Premi el botó de jugar per començar.</p>
+        <p id="texto_0">Es troba al menú d'inici de la gimcana de reis. 
+        <p id="texto_1"> Premi el botó de jugar per començar.</p>
         <button id="Playbutton" onclick="executeActions()">Jugar!</button>
         <!-- Agregar botón para reproducir música -->
         <audio id="myAudio">
@@ -51,8 +52,9 @@
         //}
         function executeActions() {
             // Cambiar el contenido del header
-            document.getElementById("titulo").textContent = "Instruccions";
-
+            document.getElementById("titulo_0").textContent = "Instruccions";
+            // Cambiar el contenido del header
+            document.getElementById("titulo_1").textContent = "none";
             // Cambiar el texto en el main
             document.getElementById("texto").textContent = "Benvingut! Acabes de començar la gimcana de reis amb l'objectiu de aconseguir el teu regal. Si us plau, llegeix atentament les següents normes i instruccions.";
 
