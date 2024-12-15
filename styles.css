@@ -61,10 +61,14 @@ img {
     margin-bottom: 10px; /* Espaciado inferior del título */
     color: #333; /* Color del título */
 }
-
+#additionalText h3 {
+    font-size: 1.4em; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior del título */
+    color: #333; /* Color del título */
+}
 footer {
     background-color: #47405f;
-    color: white;
+    color: #FFFFFF;
     padding: 10px;
     position: fixed;
     bottom: 0;
