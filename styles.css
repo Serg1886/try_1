@@ -22,15 +22,7 @@ main {
     padding: 15px;
 }
 
-p {
-    font-size: 1.2em;
-    font-weight: 100;
-    line-height: 1.4;
-    color: #333;
-    margin-bottom: 15px; /* Espaciado inferior */
-    padding-left: 40px; /* Espaciado desde el margen izquierdo para las viñetas */
-}
-ul {
+p ul{
     font-size: 1.2em;
     font-weight: 100;
     line-height: 1.4;
