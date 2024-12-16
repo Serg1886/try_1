@@ -79,8 +79,9 @@ footer {
     background-color: #47405f;
     color: #FFFFFF;
     padding: 10px;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 0.8em; /* Tamaño más pequeño */
+    opacity: 1;
 }
