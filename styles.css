@@ -29,10 +29,12 @@ p {
     color: #333; /* Color del texto (mantener o cambiar si es necesario) */
 }
 ul {
-    font-size: 1.2em; /* Incrementa el tamaño de la letra */
-    font-weight: 100; /* Hace que el texto sea más grueso */
-    line-height: 1.4; /* Espaciado entre líneas más cómodo */
-    color: #333; /* Color del texto (mantener o cambiar si es necesario) */
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #333;
+    margin-bottom: 15px; /* Espaciado inferior */
+    padding-left: 40px; /* Espaciado desde el margen izquierdo para las viñetas */
 }
 button {
     font-size: 36px; /* Tamaño de fuente grande */
