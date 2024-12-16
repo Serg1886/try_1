@@ -19,7 +19,7 @@ h1 {
 }
 
 main {
-    padding: 15px;
+     padding-bottom: 150px; /* Asegúrate de que el contenido quede por encima del footer */
 }
 
 p ul {
