@@ -38,6 +38,9 @@ ul {
     margin-bottom: 15px; /* Espaciado inferior */
     padding-left: 40px; /* Espaciado desde el margen izquierdo para las viñetas */
 }
+ul li {
+    margin-bottom: 10px;   /* Espaciado entre los elementos de la lista */
+}
 button {
     font-size: 36px; /* Tamaño de fuente grande */
     padding: 40px 60px; /* Aumento del tamaño del botón */
