@@ -23,7 +23,7 @@ main {
 }
 
 p ul{
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 100;
     line-height: 1.4;
     color: #333;
@@ -57,7 +57,7 @@ img {
     margin-top: 15px; /* Espacio con respecto a la imagen */
     text-align: left; /* Alineación del texto (puedes cambiar a "center" si lo prefieres) */
     padding: 10px; /* Espaciado interno */
-    font-size: 1.0em; /* Tamaño del texto */
+    font-size: 1.2em; /* Tamaño del texto */
     line-height: 1.4; /* Espaciado entre líneas */
 }
 
