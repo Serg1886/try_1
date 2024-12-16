@@ -23,11 +23,12 @@ main {
 }
 
 p, ul {
-    font-size: 1.2em; /* Incrementa el tamaño de la letra */
-    font-weight: 100; /* Hace que el texto sea más grueso */
-    line-height: 1.4; /* Espaciado entre líneas más cómodo */
-    color: #333; /* Color del texto */
-    text-align: justify; /* Alineación justificada */
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #333;
+    text-align: justify;
+    padding: 0 15px; /* Espaciado interior en lugar de margen */
 }
 
 ul, li {
