@@ -19,7 +19,7 @@ h1 {
 }
 
 main {
-     padding-bottom: 10px; /* Ajusta el valor al tamaño del footer */ 
+     padding: 10px; /* Ajusta el valor al tamaño del footer */ 
 }
 
 p, ul {
