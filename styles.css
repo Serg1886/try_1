@@ -28,9 +28,11 @@ p, ul {
     line-height: 1.4; /* Espaciado entre líneas más cómodo */
     color: #333; /* Color del texto (mantener o cambiar si es necesario) */
 }
+
 ul, li {
     margin-bottom: 15px;
 }
+
 button {
     font-size: 36px; /* Tamaño de fuente grande */
     padding: 40px 60px; /* Aumento del tamaño del botón */
@@ -45,12 +47,14 @@ button {
 button:hover {
     background-color: #45a049; /* Cambia el color de fondo cuando el mouse pasa sobre el botón */
 }
+
 img {
     display: block; /* La imagen se trata como un bloque */
     margin: 50px auto; /* Margen automático para centrarla horizontalmente */
     max-width: 60%; /* Asegura que no ocupe más del 60% del ancho de la pantalla */
     height: auto; /* Mantiene la proporción de la imagen */
 }
+
 #additionalText {
     margin-top: 15px; /* Espacio con respecto a la imagen */
     text-align: left; /* Alineación del texto (puedes cambiar a "center" si lo prefieres) */
@@ -64,11 +68,13 @@ img {
     margin-bottom: 10px; /* Espaciado inferior del título */
     color: #333; /* Color del título */
 }
+
 #additionalText h3 {
     font-size: 1.4em; /* Tamaño del título */
     margin-bottom: 10px; /* Espaciado inferior del título */
     color: #333; /* Color del título */
 }
+
 footer {
     background-color: #47405f;
     color: #FFFFFF;
