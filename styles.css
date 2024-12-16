@@ -19,19 +19,20 @@ h1 {
 }
 
 main {
-   padding: 15px;
+    padding: 15px;
 }
 
-p ul{
-    font-size: 1.4em;
-    font-weight: 100;
-    line-height: 1.4;
-    color: #333;
-    margin-bottom: 15px; /* Espaciado inferior */
-    padding-left: 40px; /* Espaciado desde el margen izquierdo para las viñetas */
+p {
+    font-size: 1.2em; /* Incrementa el tamaño de la letra */
+    font-weight: 100; /* Hace que el texto sea más grueso */
+    line-height: 1.4; /* Espaciado entre líneas más cómodo */
+    color: #333; /* Color del texto (mantener o cambiar si es necesario) */
 }
-ul li {
-    margin-bottom: 10px;   /* Espaciado entre los elementos de la lista */
+ul {
+    font-size: 1.2em; /* Incrementa el tamaño de la letra */
+    font-weight: 100; /* Hace que el texto sea más grueso */
+    line-height: 1.4; /* Espaciado entre líneas más cómodo */
+    color: #333; /* Color del texto (mantener o cambiar si es necesario) */
 }
 button {
     font-size: 36px; /* Tamaño de fuente grande */
@@ -57,7 +58,7 @@ img {
     margin-top: 15px; /* Espacio con respecto a la imagen */
     text-align: left; /* Alineación del texto (puedes cambiar a "center" si lo prefieres) */
     padding: 10px; /* Espaciado interno */
-    font-size: 1.2em; /* Tamaño del texto */
+    font-size: 1.0em; /* Tamaño del texto */
     line-height: 1.4; /* Espaciado entre líneas */
 }
 
