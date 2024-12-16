@@ -29,7 +29,7 @@ p ul {
     color: #333; /* Color del texto (mantener o cambiar si es necesario) */
 }
 ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 button {
     font-size: 36px; /* Tamaño de fuente grande */
