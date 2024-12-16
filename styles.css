@@ -22,7 +22,7 @@ main {
      margin-bottom: 60px; /* Ajusta según la altura del footer */
 }
 
-p, ul {
+ol, ul {
     font-size: 1.2em; /* Incrementa el tamaño de la letra */
     font-weight: 100; /* Hace que el texto sea más grueso */
     line-height: 1.4; /* Espaciado entre líneas más cómodo */
