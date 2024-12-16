@@ -26,11 +26,13 @@ p, ul {
     font-size: 1.2em; /* Incrementa el tamaño de la letra */
     font-weight: 100; /* Hace que el texto sea más grueso */
     line-height: 1.4; /* Espaciado entre líneas más cómodo */
-    color: #333; /* Color del texto (mantener o cambiar si es necesario) */
+    color: #333; /* Color del texto */
+    text-align: justify; /* Alineación justificada */
 }
 
 ul, li {
     margin-bottom: 15px;
+    text-align: justify; /* Asegura que las listas también estén justificadas */
 }
 
 button {
